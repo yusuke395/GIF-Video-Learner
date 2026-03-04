@@ -1480,7 +1480,7 @@
             {isLoaded ? (
               <iframe
                 src={`https://www.redgifs.com/ifr/${item.redgifsId}`}
-                className="w-full h-full absolute inset-0"
+                className="w-full h-full absolute inset-0 pointer-events-none"
                 frameBorder="0"
                 scrolling="no"
                 allowFullScreen
@@ -2015,7 +2015,7 @@
                       <iframe
                         key={currentImage.id}
                         src={`https://www.redgifs.com/ifr/${currentImage.redgifsId}`}
-                        className="w-full h-full"
+                        className="w-full h-full pointer-events-none"
                         frameBorder="0"
                         scrolling="no"
                         allowFullScreen
